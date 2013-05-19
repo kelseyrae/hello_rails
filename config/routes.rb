@@ -1,7 +1,7 @@
 Hello::Application.routes.draw do
   get "hello/world" => "hello#world"
 
-  get "hello/to/:name" => "hello#to" # this 
+  get "hello/to/:name" => "hello#to"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
